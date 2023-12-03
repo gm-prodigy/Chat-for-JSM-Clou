@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme name="Default" author_name="Invision Power Services, Inc" author_url="https://www.invisioncommunity.com">
+ <template template_group="hooks" template_name="globalWidget" template_data="$member" template_location="front" template_app="jsmcloudchat"><![CDATA[
+{{if \IPS\Member::loggedIn() && \IPS\Settings::i()->jsmcloudchat_enabled }}
+    {{\IPS\jsmcloudchat\Application::GetJWT(\IPS\Member::loggedIn()->member_id);}}
+
+    {{$JiraID = \IPS\Settings::i()->jsmcloudchat_jira_ID;}}
+    {{$ServiceDeskID = \IPS\Settings::i()->jsmcloudchat_service_desk_id;}}
+
+    <script src="https://chat-api.spartez-software.com/chat-widget.js" defer></script>
+<chat-widget
+    jira-id="$JiraID"
+    service-desk-id="$ServiceDeskID"></chat-widget>
+
+<script>
+(async function() {
+
+
+    {{$GetJWT = \IPS\Request::i()->cookie['jsmcloudchat_jwt'];}}
+
+    const token = '$GetJWT';
+    const chatWidget = document.querySelector('chat-widget');
+    chatWidget.onload = async function () {
+        await chatWidget.loginWithToken(token);
+    };
+})();
+</script>
+{{endif}}
+      
+
+
+
+
+
+
+]]></template>
+</theme>

@@ -1,0 +1,11 @@
+{
+    "added": [
+        "jsmcloudchat_enabled",
+        "jsmcloudchat_exp_minutes",
+        "jsmcloudchat_jira_ID",
+        "jsmcloudchat_service_desk_id",
+        "jsmcloudchat_user_groups"
+    ],
+    "edited": [],
+    "removed": []
+}

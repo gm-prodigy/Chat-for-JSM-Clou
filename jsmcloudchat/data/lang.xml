@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+ <app key="jsmcloudchat" version="10001">
+  <word key="__app_jsmcloudchat" js="0">Chat for JSM Cloud</word>
+  <word key="jsmcloudchatsettingspage_manage" js="0">Chat for JSM Cloud Settings</word>
+  <word key="jsmcloudchat_api_key" js="0">API Key</word>
+  <word key="jsmcloudchat_exp_minutes" js="0">JWT Expiry date in minutes</word>
+  <word key="menu__jsmcloudchat_jsmcloudchatsetting" js="0">Chat for JSM Cloud</word>
+  <word key="menu__jsmcloudchat_jsmcloudchatsetting_jsmcloudchatsettingspage" js="0">Chat for JSM Cloud Settings</word>
+  <word key="jsmcloudchat_enabled" js="0">Enable Chat for JSM</word>
+  <word key="r__jsmcloudchatsettingspage" js="0">Manage JSM settings Page</word>
+  <word key="r__jsmcloudchatsettingspage_manage" js="0">Manage settings</word>
+  <word key="jsmcloudchat_service_desk_id" js="0">Service Desk ID</word>
+  <word key="jsmcloudchat_jira_ID" js="0">Jira ID</word>
+ </app>
+</language>

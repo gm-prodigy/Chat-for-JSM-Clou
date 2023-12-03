@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build>
+ <module key="admin/jsmcloudchatsetting"><![CDATA[{"default_controller":"splash","protected":0,"default":1}]]></module>
+ <setting key="jsmcloudchat_api_key"><![CDATA[{"key":"jsmcloudchat_api_key","default":""}]]></setting>
+ <setting key="jsmcloudchat_enabled"><![CDATA[{"key":"jsmcloudchat_enabled","default":"false"}]]></setting>
+ <setting key="jsmcloudchat_exp_minutes"><![CDATA[{"key":"jsmcloudchat_exp_minutes","default":""}]]></setting>
+ <setting key="jsmcloudchat_jira_ID"><![CDATA[{"key":"jsmcloudchat_jira_ID","default":""}]]></setting>
+ <setting key="jsmcloudchat_service_desk_id"><![CDATA[{"key":"jsmcloudchat_service_desk_id","default":"3"}]]></setting>
+ <setting key="jsmcloudchat_user_groups"><![CDATA[{"key":"jsmcloudchat_user_groups","default":""}]]></setting>
+ <hook key="jsmcloudchatwidget"><![CDATA[{"type":"S","class":"\\IPS\\Theme\\class_core_front_global"}]]></hook>
+</build>

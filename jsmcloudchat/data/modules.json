@@ -1,0 +1,10 @@
+{
+    "admin": {
+        "jsmcloudchatsetting": {
+            "default_controller": "splash",
+            "protected": 0,
+            "default": 1
+        }
+    },
+    "front": []
+}

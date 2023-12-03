@@ -1,0 +1,26 @@
+[
+    {
+        "key": "jsmcloudchat_api_key",
+        "default": ""
+    },
+    {
+        "key": "jsmcloudchat_enabled",
+        "default": "false"
+    },
+    {
+        "key": "jsmcloudchat_exp_minutes",
+        "default": ""
+    },
+    {
+        "key": "jsmcloudchat_jira_ID",
+        "default": ""
+    },
+    {
+        "key": "jsmcloudchat_service_desk_id",
+        "default": "3"
+    },
+    {
+        "key": "jsmcloudchat_user_groups",
+        "default": ""
+    }
+]

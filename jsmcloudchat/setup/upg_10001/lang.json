@@ -1,0 +1,23 @@
+{
+    "normal": {
+        "added": [
+            "jsmcloudchatsettingspage_manage",
+            "jsmcloudchat_api_key",
+            "jsmcloudchat_exp_minutes",
+            "menu__jsmcloudchat_jsmcloudchatsetting",
+            "menu__jsmcloudchat_jsmcloudchatsetting_jsmcloudchatsettingspage",
+            "jsmcloudchat_enabled",
+            "r__jsmcloudchatsettingspage",
+            "r__jsmcloudchatsettingspage_manage",
+            "jsmcloudchat_service_desk_id",
+            "jsmcloudchat_jira_ID"
+        ],
+        "edited": [],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

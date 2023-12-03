@@ -1,0 +1,11 @@
+{
+    "jsmcloudchatsetting": {
+        "jsmcloudchatsettingspage": {
+            "tab": "core",
+            "controller": "jsmcloudchatsettingspage",
+            "do": "",
+            "restriction": "jsmcloudchatsettingspage_manage",
+            "subcontrollers": ""
+        }
+    }
+}
